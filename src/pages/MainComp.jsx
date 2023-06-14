@@ -13,10 +13,10 @@ import {
     Availavle,
     Circle,
     AvaText,
-    MyInfo,
+    MyInfo, Badge,
     MyInfoText,
-    WorksWrap,
-    IconStyle, WorksH, IconText
+    WorksWrap, WorkTitle, WorkInfo,
+    IconStyle, WorksH, IconText, ProjectList, ListImg, ProjectWrap,WorkImg
 } from "./MainStylecomp";
 
 export default function MainComp() {
@@ -45,6 +45,36 @@ export default function MainComp() {
                         <IconStyle icon="bx:layer" />
                         <IconText>Latest Works</IconText>
                     </WorksH>
+                    <ProjectList>
+                        <ProjectWrap>
+                            <ListImg></ListImg>
+                            <WorkTitle>Project Title</WorkTitle>
+                        </ProjectWrap>
+                        <WorkInfo>
+                            A space that writes a brief description of the
+                            about my project,A space that writes a brief description of the
+                            about my project
+                        </WorkInfo>
+                        <div style={{width:"680px", margin:"0 auto"}}>
+                            <Badge>React</Badge>
+                        </div>
+                        <WorkImg></WorkImg>
+                    </ProjectList>
+                    <ProjectList>
+                        <ProjectWrap>
+                            <ListImg></ListImg>
+                            <WorkTitle>Project Title</WorkTitle>
+                        </ProjectWrap>
+                        <WorkInfo>
+                            A space that writes a brief description of the
+                            about my project,A space that writes a brief description of the
+                            about my project
+                        </WorkInfo>
+                        <div style={{width:"680px", margin:"0 auto"}}>
+                            <Badge>React</Badge>
+                        </div>
+                        <WorkImg></WorkImg>
+                    </ProjectList>
                 </WorksWrap>
             </Wrap>
         </div>

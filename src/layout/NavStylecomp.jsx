@@ -1,13 +1,14 @@
 import styled from 'styled-components'
 
 export const HeaderStyle = styled.header`
-    max-width: 1800px;
+    max-width: 1700px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    background-color: ${props => props.smallScreen ? '#FFFFFF' : 'transparent'};
 `
 export const InnerStyle = styled.div`
     width: 100%;
