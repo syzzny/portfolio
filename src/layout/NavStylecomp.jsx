@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
+
 
 export const HeaderStyle = styled.header`
     max-width: 1700px;
@@ -23,4 +25,8 @@ export const MenuStyle = styled.ul`
     display: flex;
     gap: 35px;
     color: #2E2E2E;
+`
+export const LinkStyle = styled(Link)`
+    color: #2E2E2E;
+    text-decoration: none;
 `
