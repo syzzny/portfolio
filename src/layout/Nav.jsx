@@ -30,8 +30,8 @@ export default function Nav() {
                     <img src="../assets/img/logo.png" alt="" />
                 </div>
                 <MenuStyle>
-                    <LinkStyle to={'./about'}>About</LinkStyle>
-                    <LinkStyle to={'./works'}>Works</LinkStyle>
+                    <LinkStyle to='/about'>About</LinkStyle>
+                    <LinkStyle to='/works'>Works</LinkStyle>
                 </MenuStyle>
             </InnerStyle>
         </HeaderStyle>

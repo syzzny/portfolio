@@ -6,6 +6,8 @@ export const Wrap = styled.div`
     height: 100vh;
     margin: 0 auto;
     margin-top: 150px;
+    padding: 0 20px;
+    padding-bottom: 150px;
 `
 
 export const ProfileWrap = styled.div`
@@ -27,6 +29,7 @@ export const Available = styled.div`
     align-items: center;
     background-color: #E8F8E7;
     width: 120px;
+    min-width: 100px;
     height: 30px;
     text-align: center;
     border: 1px solid #60C150;
@@ -44,6 +47,7 @@ export const Circle = styled.div`
 export const MyInfo = styled.div`
     text-align: left;
     display: grid;
+    gap: 10px;
     align-items: start;
     grid-template-columns: 1fr 2.5fr;
 `
@@ -57,13 +61,40 @@ export const Text = styled.div`
     font-size: 22px;
     margin: 0;
     font-family: 'Pretendard';
-    line-height: 30px;
+    line-height: 31px;
     word-break: keep-all;
     color: #171717;
     letter-spacing: 0.5px;
 `
 export const Pstyle = styled.p`
     margin: 0;
+
+    &:nth-child(3){
+        margin-top: 20px;
+    }
+`
+export const Pdate = styled.p`
+    margin: 0;
+    font-size: 16px;
+`
+
+export const WorkWrap = styled.div`
+    width: auto;
+    /* background-color: #f5f5f5; */
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 0 20px;
+    padding-bottom: 150px;
+    display :grid;
+    gap :120px;
+`
+export const Info = styled.div`
+    background-color: aliceblue;
+    width: 680px;
+`
+export const WorkList = styled.div`
+    background-color: #f5f5f5;
 `
 
 

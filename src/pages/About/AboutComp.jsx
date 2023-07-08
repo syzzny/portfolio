@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from '../../layout/Nav'
 import {
-    Wrap, Circle, ProfileWrap, Hello, Available, AvailWrap, MyInfo, Title, Text, Pstyle
+    Wrap, Circle, ProfileWrap, Hello, Available, AvailWrap, MyInfo, Title, Text, Pstyle, Pdate
 } from "../Styles/StyleComp";
 
 export default function AboutComp() {
@@ -26,10 +26,9 @@ export default function AboutComp() {
                         </Title>
                         <Text>
                             <Pstyle>
-                                디자인과 창의성에 대한 나의 열정은
-                                그래픽 디자인과 브랜딩에서 제품
-                                디자인과 사용자 경험에 이르기까지
-                                다양한 분야에서 일하도록 이끌었습니다.
+                                UX를 향상시키고 좋은 UI를 구축하는 프론트엔드 개발자로서,
+                                디자인과 창의성에 대한 열정을 바탕으로 사용자들에게 흥미있는 웹 사이트와
+                                앱을 제공합니다.
                             </Pstyle>
                         </Text>
                     </MyInfo>
@@ -39,18 +38,12 @@ export default function AboutComp() {
                         </Title>
                         <Text>
                             <Pstyle>
-                                다양한 산업 분야의 클라이언트를 위해
-                                시각적으로 매력적이고 사용자 친화적인
-                                웹 사이트를 만드는 데 중점을 둔 웹
-                                디자인 분야에서 5년 이상의 경력. 강력한
-                                프로젝트 관리 기술, 교차 기능 팀과
-                                효과적으로 의사 소통하는 능력, 세부
-                                사항에 대한 예리한 안목. 50개 이상의
-                                프로젝트를 성공적으로 제공하여 온라인
-                                트래픽과 고객 만족도를 높였습니다.
-                                업계 동향을 최신 상태로 유지하고 고객의
-                                요구를 충족하기 위해 혁신적인 디자인
-                                솔루션을 통합한 실적을 기록합니다.
+                                웹/앱 기획의 경험으로 업무를 통해 프로젝트 목표와 클라이언트 요구사항을 분석하는
+                                능력을 갖추었으며, 이를 토대로 프로젝트의 방향성을 정확하게 이해하고 효율적인 결과물
+                                을 제공할 수 있습니다. 또한, 팀원들과의 원활한 협업과 클라이언트의 요구를 충족시키는
+                                역할을 수행할 수 있으며, 프로젝트 완료 후에도 클라이언트와 지속적으로 협업하여 더 나은
+                                결과물을 제공할 수 있습니다. 이러한 경험을 통해 프론트엔드 개발자로서의 역할 수행과 클라이언트
+                                의 요구를 충족시키는데 큰 도움이 될 것입니다.
                             </Pstyle>
                         </Text>
                     </MyInfo>
@@ -60,8 +53,30 @@ export default function AboutComp() {
                         </Title>
                         <Text>
                             <Pstyle>
-                            Web/App Product Manager
+                                Web/App Product Manager
                             </Pstyle>
+                            <Pdate>
+                                July 2021 - January 2023
+                            </Pdate>
+                        </Text>
+                    </MyInfo>
+                    <MyInfo>
+                        <Title>
+                            <Pstyle>Education</Pstyle>
+                        </Title>
+                        <Text>
+                            <Pstyle>
+                                신라대학교 컴퓨터공학 전공
+                            </Pstyle>
+                            <Pdate>
+                                March 2016 - February 2020
+                            </Pdate>
+                            <Pstyle>
+                                그린 컴퓨터 아카데미<br />[React 활용 프론트엔드 개발자 양성과정]
+                            </Pstyle>
+                            <Pdate>
+                                February 2023 - July 2023
+                            </Pdate>
                         </Text>
                     </MyInfo>
                 </div>
