@@ -64,7 +64,7 @@ export const WorksWrap = styled.div`
 export const WorksH = styled.div`
     display: flex;
     align-items: center;
-    width: 680px;
+    /* width: 680px; */
     margin: 0 auto;
 `
 export const IconStyle = styled(Icon)`
@@ -90,8 +90,11 @@ export const ProjectWrap = styled.div`
 export const ListImg = styled.div`
     width: 44px;
     height: 44px;
-    background-color: #F8F8F8;
+    /* background-color: #F8F8F8; */
     border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #E9E9E9;
 `
 export const WorkTitle = styled.p`
     font-size: 24px;
@@ -116,12 +119,26 @@ export const Badge = styled.div`
     margin-top: 28px;
 `
 export const WorkImg = styled.div`
-    max-width: 860px;
-    height: 644px;
+    display: flex;
+    /* max-width: 860px; */
+    /* height: 644px; */
+    padding: 60px 0;
     margin-top: 50px;
-    background-color: #fdfdfd;
-    border-radius: 30px;
+    /* background-color: #fdfdfd; */
+    border-radius: 22px;
     border: 1px solid #E9E9E9;
     box-shadow: rgba(0, 0, 0, 0.106) 0px 0.362052px 0.289641px -1px, 
                 rgba(0, 0, 0, 0.15) 0px 3px 2.4px -2px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+
+    img {
+        /* max-width: 100%; */
+        /* width: 100%; */
+        /* object-fit: contain; */
+    }
+    
 `

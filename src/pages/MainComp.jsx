@@ -47,33 +47,41 @@ export default function MainComp() {
                     </WorksH>
                     <ProjectList>
                         <ProjectWrap>
-                            <ListImg></ListImg>
-                            <WorkTitle>Project Title</WorkTitle>
+                            <ListImg>
+                                <img src="../assets/img/WorkTitle1.png" alt="" />
+                            </ListImg>
+                            <WorkTitle>ArtWork</WorkTitle>
                         </ProjectWrap>
                         <WorkInfo>
                             A space that writes a brief description of the
                             about my project,A space that writes a brief description of the
                             about my project
                         </WorkInfo>
-                        <div style={{width:"680px", margin:"0 auto"}}>
+                        <div style={{ maxWidth:'680px',margin:"0 auto"}}>
                             <Badge>React</Badge>
                         </div>
-                        <WorkImg></WorkImg>
+                        <WorkImg>
+                            <img src="../assets/img/workImg01.png" />
+                        </WorkImg>
                     </ProjectList>
                     <ProjectList>
                         <ProjectWrap>
-                            <ListImg></ListImg>
-                            <WorkTitle>Project Title</WorkTitle>
+                            <ListImg>
+                                <img src="../assets/img/WorkTitle2.png" alt="" />
+                            </ListImg>
+                            <WorkTitle>Mung&More</WorkTitle>
                         </ProjectWrap>
                         <WorkInfo>
                             A space that writes a brief description of the
                             about my project,A space that writes a brief description of the
                             about my project
                         </WorkInfo>
-                        <div style={{width:"680px", margin:"0 auto"}}>
+                        <div style={{maxWidth:'680px', margin:"0 auto"}}>
                             <Badge>React</Badge>
                         </div>
-                        <WorkImg></WorkImg>
+                        <WorkImg>
+                            <img src="../assets/img/workImg02.png" />
+                        </WorkImg>
                     </ProjectList>
                 </WorksWrap>
             </Wrap>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import { HeaderStyle, InnerStyle, MenuStyle } from './NavStylecomp';
-
+import { HeaderStyle, InnerStyle, MenuStyle, LinkStyle } from './NavStylecomp';
+import {Link} from 'react-router-dom'
 // 미디어 쿼리 추가
 const smallScreenQuery = '(max-width: 870px)';
 
@@ -27,11 +27,11 @@ export default function Nav() {
         <HeaderStyle smallScreen={isSmallScreen}>
             <InnerStyle>
                 <div>
-                    <img src="../assets/img/logo4.png" alt="" />
+                    <img src="../assets/img/logo.png" alt="" />
                 </div>
                 <MenuStyle>
-                    <li>About</li>
-                    <li>Works</li>
+                    <LinkStyle to={'./about'}>About</LinkStyle>
+                    <LinkStyle to={'./works'}>Works</LinkStyle>
                 </MenuStyle>
             </InnerStyle>
         </HeaderStyle>
