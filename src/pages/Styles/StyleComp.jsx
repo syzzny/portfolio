@@ -98,8 +98,9 @@ export const Info = styled.div`
     width: 680px;
     text-align: left;
     display: grid;
+    gap: 15px;
     margin: 0 auto;
-    /* justify-content: center; */
+    justify-content: start;
 `
 export const WorkList = styled.div`
     /* background-color: #f5f5f5; */
@@ -140,6 +141,66 @@ export const WorkName = styled.div`
     text-align: left;
     font-size: 20px;
     font-weight: 500;
+`
+
+export const ProjectWrap = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* max-width: 680px; */
+    width: 100%;
+    margin: 0 auto;
+`
+export const ListImg = styled.div`
+    width: 44px;
+    height: 44px;
+    /* background-color: #F8F8F8; */
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #E9E9E9;
+`
+export const InfoWorkTitle = styled.p`
+    font-size: 24px;
+    font-weight: 600;
+`
+export const InfoText = styled.div`
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    line-height: 32px;
+    font-family: 'Pretendard';
+    word-break: keep-all;
+`
+export const LivePrev = styled.button`
+    width: 152px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #E6E6E6;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #676767;
+    line-height: 28px;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover{
+        color: #000;
+        background-color: #f5f5f5;
+        
+    }
+`
+export const Work = styled.div`
+    border: 1px solid #E9E9E9;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.106) 0px 0.362052px 0.289641px -1px, 
+                rgba(0, 0, 0, 0.15) 0px 3px 2.4px -2px;
+`
+export const WorkInfoWrap = styled.div`
+    display: grid;
+    gap: 80px;
+    padding-bottom: 50px;
 `
 
 
