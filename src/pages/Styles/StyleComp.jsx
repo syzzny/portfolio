@@ -202,6 +202,14 @@ export const WorkInfoWrap = styled.div`
     gap: 80px;
     padding-bottom: 50px;
 `
+export const WorkText = styled.p`
+    font-size: 22px;
+    font-family: 'Pretendard';
+    text-align: left;
+    letter-spacing: 0.3px;
+    line-height: 28px;
+    font-weight: 300;
+`
 
 
 

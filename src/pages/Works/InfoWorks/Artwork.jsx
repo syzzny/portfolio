@@ -1,7 +1,7 @@
 import React from 'react'
 import {
     Wrap, Info, WorkWrap, LinkStyle, WorkTitle, ProjectWrap, ListImg, InfoWorkTitle, InfoText, LivePrev, Work
-    ,WorkInfoWrap
+    ,WorkInfoWrap, WorkText
 } from "../../Styles/StyleComp";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRight } from '@fortawesome/free-solid-svg-icons';
@@ -33,9 +33,11 @@ export default function Artwork() {
                         </p>
                     </InfoText>
                     <div className='LivePrev'>
+                        <a href="https://syzzny.github.io/react-web-project/">
                         <LivePrev>
                             Live Preview
                         </LivePrev>
+                        </a>
                     </div>
                 </Info>
 
@@ -46,7 +48,22 @@ export default function Artwork() {
                     <Work>
                         <img src="../assets/img/work02.png" alt="" />
                     </Work>
-
+                    <Work>
+                        <img src="../assets/img/work03.png" alt="" />
+                    </Work>
+                    <Work style={{padding:'0', border: 'none', boxShadow: 'none'}}>
+                        <img src="../assets/img/work04.png" style={{borderRadius: '30px'}} />
+                    </Work>
+                    <Work>
+                        <img src="../assets/img/work05.png" alt="" />
+                    </Work>
+                    <Work>
+                        <img src="../assets/img/work06.png" alt="" />
+                    </Work>
+                    {/* <WorkText>
+                        다중 필터 기능을 적용하여 원하는 전시를 쉽게 검색할 수 있게 구현하였습니다.<br></br>
+                        사용자의 편의성을 높이고, 원하는 전시를 보다 효율적으로 탐색할 수 있도록 도와줍니다.
+                    </WorkText> */}
                 </WorkInfoWrap>
             </WorkWrap>
         </div>

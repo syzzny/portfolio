@@ -26,9 +26,9 @@ export default function Nav() {
     return (
         <HeaderStyle smallScreen={isSmallScreen}>
             <InnerStyle>
-                <div>
+                <Link to='/'>
                     <img src="../assets/img/logo.png" alt="" />
-                </div>
+                </Link>
                 <MenuStyle>
                     <LinkStyle to='/about'>About</LinkStyle>
                     <LinkStyle to='/works'>Works</LinkStyle>
