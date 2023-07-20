@@ -64,7 +64,7 @@ export const WorksWrap = styled.div`
 export const WorksH = styled.div`
     display: flex;
     align-items: center;
-    /* width: 680px; */
+    max-width: 680px;
     margin: 0 auto;
 `
 export const IconStyle = styled(Icon)`
